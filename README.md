@@ -1,4 +1,4 @@
-# Projeto de um Quiz feito com React
+# Quiz feito com React
 
 ## Para rodar esse projeto é de extrema importância que tenha o NodeJS instalado localmente.
     
