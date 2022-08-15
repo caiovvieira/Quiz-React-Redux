@@ -5,8 +5,8 @@
 ### Para rodar o projeto é só seguir as instruções abaixo:
 - Clone o repositório;
 - Abra o diretório no terminal de sua preferência;
-- Execute o comando: npm install;
-- Após instalar todas as dependencia, execute o comando: npm start;
+- Execute o comando: **npm install**;
+- Após instalar todas as dependencia, execute o comando: **npm start**;
 
 ### Para adicionar novas perguntas:
 - Entre no seguinte caminho: /src/Components/Questions.js;
