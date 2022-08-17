@@ -1,29 +1,33 @@
-import React, { useState } from "react"
+import React from "react"
+import {useSelector, useDispatch} from "react-redux"
 
 function Quiz(props) {
 
-    const [currentIndex, setCurrentIndex] = useState(0)
-    const [showMessage, setShowMessage] = useState(false)
-    const [point, setPoint] = useState(0)
+    const currentIndex = useSelector( state => state.index)
+    const showMessage = useSelector(state => state.message)
+    const point = useSelector( state => state.point)
+
+    const dispatch = useDispatch()
 
     const index = props.questions[currentIndex]
 
     function restartQuiz() {
-        setPoint(0)
-        setCurrentIndex(0)
-        setShowMessage(false)
+        dispatch({type:"HIDE_MESSAGE"})
+        dispatch({type:"RESET_INDEX"})
+        dispatch({type:"RESET_POINT"})
     }
 
     function nextQuestion(item) {
         if (item) {
-            setPoint(point + 1)
+            dispatch({type:"ADD_POINT"})
         }
 
+        dispatch({type:"INCREMENT_INDEX"})
+
         const indexQuestion = currentIndex + 1
-        setCurrentIndex(indexQuestion)
 
         if (props.questions.length === indexQuestion) {
-            setShowMessage(true)
+            dispatch({type:"SHOW_MESSAGE"})
         }
     }
 
