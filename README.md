@@ -1,6 +1,6 @@
 # Quiz feito com React e Redux
 
-Projeto feito com o objetivo de colocar em prática conhecimentos obtidos em ambas tecnologias. 
+Projeto feito com o objetivo de colocar em prática conhecimentos obtidos em react e redux. 
 
 ## Para rodar esse projeto é de extrema importância que tenha o NodeJS instalado localmente.
     
