@@ -14,3 +14,7 @@ Projeto feito com o objetivo de colocar em prática conhecimentos obtidos em rea
 - Entre no seguinte caminho: /src/components/Questions.js;
 - Adicione outro objeto seguindo o padrão do arquivo;
 
+  https://caiovvieira.github.io/Quiz-React-Redux/
+
+![image](https://github.com/user-attachments/assets/c925fc4d-7e37-448c-b51e-903f31890f33)
+
