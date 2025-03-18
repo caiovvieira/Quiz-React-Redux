@@ -1,6 +1,6 @@
 import './App.css';
-import Quiz from './components/Quiz';
-import questions from './components/Questions';
+import Quiz from './components/Quiz.js';
+import questions from './components/Questions.js';
 import { legacy_createStore as createStore } from 'redux'
 import allReducers from './reducers/index.js'
 import { Provider } from 'react-redux'
