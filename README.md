@@ -11,6 +11,6 @@ Projeto feito com o objetivo de colocar em prática conhecimentos obtidos em rea
 - Após instalar todas as dependencia, execute o comando: **npm start**;
 
 ### Para adicionar novas perguntas:
-- Entre no seguinte caminho: /src/Components/Questions.js;
+- Entre no seguinte caminho: /src/components/Questions.js;
 - Adicione outro objeto seguindo o padrão do arquivo;
 
