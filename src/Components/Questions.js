@@ -54,7 +54,7 @@ const Questions = [
             },
             {
                 answer:"Rosário",
-                isTrue:true
+                isTrue:false
             },
             {
                 answer:"Buenos Aires",
